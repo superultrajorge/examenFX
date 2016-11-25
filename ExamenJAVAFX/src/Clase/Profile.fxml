@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Clase.OneController">
    <center>
       <AnchorPane BorderPane.alignment="CENTER">
          <opaqueInsets>
@@ -55,7 +55,7 @@
                   </ImageView>
                   <Pane prefHeight="183.0" prefWidth="280.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <children>
-                        <ImageView fitHeight="62.0" fitWidth="68.0" layoutX="118.0" layoutY="60.0">
+                        <ImageView fitHeight="62.0" fitWidth="68.0" layoutX="118.0" layoutY="60.0" onMouseClicked="#handleSend">
                            <image>
                               <Image url="@../../../../../Desktop/resources/send.png" />
                            </image>
