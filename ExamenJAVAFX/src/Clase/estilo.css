@@ -1,0 +1,5 @@
+.mybutton{
+	-fx-background-color: brown;
+	-fx-border-color: yellow;
+	-fx-text-fill: white;
+}
